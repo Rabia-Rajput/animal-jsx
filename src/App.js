@@ -25,7 +25,7 @@ function App() {
   return (
     <div className='app'>
       <button onClick={HandleClick}>Add Animal</button>
-      <div>{renderedAnimals} </div>
+      <div className='animal-list'>{renderedAnimals} </div>
       {/* <button onClick={() => console.log("button was clicked")}> */}
       {/* Add Animal
       </button> */}
