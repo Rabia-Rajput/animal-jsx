@@ -1,3 +1,6 @@
+import './AnimalShow.css';
+
+
 import { useState } from "react";
 
 import bird from "./images/bird.svg";
