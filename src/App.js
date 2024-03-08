@@ -23,7 +23,7 @@ function App() {
     return <AnimalShow type={animal} key={index} />;
   });
   return (
-    <div>
+    <div className='app'>
       <button onClick={HandleClick}>Add Animal</button>
       <div>{renderedAnimals} </div>
       {/* <button onClick={() => console.log("button was clicked")}> */}
